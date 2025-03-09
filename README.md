@@ -7,15 +7,15 @@ The project aims to classify text messages into two categories: spam and ham (no
 
 #### Text Preprocessing
 
- Tokenization: The text is broken down into individual words (tokens), which serve as the basic units for further analysis.
+ 1. Tokenization: The text is broken down into individual words (tokens), which serve as the basic units for further analysis.
 
- Stop Words Removal: Common words, such as “the,” “and,” and “in,” that do not contribute meaningful information, are removed from the text to reduce noise.
+ 2. Stop Words Removal: Common words, such as “the,” “and,” and “in,” that do not contribute meaningful information, are removed from the text to reduce noise.
 
 #### Vectorization
 
-Bag of Words (BoW): This technique creates a matrix where each row represents a text message and each column corresponds to a unique word in the corpus. The value in each cell represents the frequency of the word in the message.
+1. Bag of Words (BoW): This technique creates a matrix where each row represents a text message and each column corresponds to a unique word in the corpus. The value in each cell represents the frequency of the word in the message.
 
-TF-IDF (Term Frequency-Inverse Document Frequency): This method transforms the text data into a numerical format by considering both the frequency of a word within a message and how rare the word is across all messages. This helps in emphasizing important words.
+2. TF-IDF (Term Frequency-Inverse Document Frequency): This method transforms the text data into a numerical format by considering both the frequency of a word within a message and how rare the word is across all messages. This helps in emphasizing important words.
 
 #### Model Training
 
